@@ -15,10 +15,10 @@ public record DadosCadastroPaciente(
         String email,
         @NotBlank
         String telefone,
-        @NotBlank @Pattern(regexp = "\\d{8}")
+        @NotBlank @Pattern(regexp = "\\d{7,9}")
         String rg,
         @NotNull
         @Valid
-        DadosEnderco enderco
+        DadosEnderco endereco
 ) {
 }
