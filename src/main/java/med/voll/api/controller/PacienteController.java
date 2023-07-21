@@ -22,7 +22,7 @@ import med.voll.api.domain.paciente.DadosCadastroPaciente;
 import med.voll.api.domain.paciente.DadosDetalhamentoPaciente;
 import med.voll.api.domain.paciente.DadosListagemPaciente;
 import med.voll.api.domain.paciente.Paciente;
-import med.voll.api.domain.paciente.PacienteRepository;
+import med.voll.api.repositories.PacienteRepository;
 
 @RestController
 @RequestMapping("pacientes")
